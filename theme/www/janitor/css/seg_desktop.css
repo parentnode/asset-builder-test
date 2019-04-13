@@ -1,0 +1,31 @@
+/*
+asset-builder @ 2019-04-13 18:04:18
+*/
+
+/*seg_desktop_include.css*/
+
+/*s-janitor1.css*/
+#testj1 {background: transparent url(../assets/img/modules/img/asset.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#testj2 {background: transparent url(../img/asset.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#testj3 {background: transparent url(../img/asset.jpg) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+
+
+/*s-janitor2.css*/
+@font-face {
+	font-family: 'testj1';
+	src: url('fonts/opensans-italic-webfont.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'testj2';
+	src: url('fonts/opensans-bold-webfont.svg') format('svg'), url('fonts/opensans-bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+p.testj1 {
+	font-family: "testj1";
+}
+p.testj2 {
+	font-family: "testj2";
+}

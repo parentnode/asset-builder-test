@@ -1,0 +1,25 @@
+
+#content .scene ul.wishes > li > ul.actions,
+#content .scene ul.wishes > li > .text > ul.actions {padding-bottom: 0;}
+#content .scene ul.wishes > li > ul.actions li,
+#content .scene ul.wishes > li > .text > ul.actions li {padding-right: 0; display: block;}
+#content .scene ul.wishes > li > ul.actions form div.field,
+#content .scene ul.wishes > li > .text > ul.actions form div.field {display: none; padding-left: 0; padding-right: 0;/*display: inline-block; vertical-align: top; padding: 0 10px;*/}
+#content .scene ul.wishes > li > ul.actions form div.field input,
+#content .scene ul.wishes > li > .text > ul.actions form div.field input {/*width: 200px; display: none;*/}
+#content .scene ul.wishes > li > ul.actions form input[type=submit],
+#content .scene ul.wishes > li > .text > ul.actions form input[type=submit] {/*display: inline-block; vertical-align: top; margin-top: 3px;*/}
+
+
+/* WISH INFO */
+/*#content .scene ul.wishes dl.info dd {font-size: 13px; display: block; padding-bottom: 8px;}*/
+#content .scene ul.wishes dl.info dt.price {display: inline-block; vertical-align: top; width: auto;}
+#content .scene ul.wishes dl.info dt.price:after {content: ":";}
+
+#content .scene ul.wishes dl.info dd.price {display: inline-block; vertical-align: top; width: auto; padding-left: 5px;}
+#content .scene ul.wishes dl.info dt.link {display: none;}
+#content .scene ul.wishes dl.info dd.link {font-size: 13px; display: block; width: auto; padding-left: 0;}
+
+/*
+Comment that shouldn't be included
+*/

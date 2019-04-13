@@ -1,0 +1,26 @@
+@import url("challenge/s-third.css");
+
+#login_overlay h1/*,
+#login_overlay p*/ {padding-left: 2px; padding-right: 2px;}
+
+#login_overlay .field.required .indicator {/*top: 4px;left: 305px;*/ width: 25px; height: 25px;/* position: absolute; */background: transparent url(/img/icons.png) no-repeat 0 -2px;/**/}
+/*#login_overlay .field.correct .indicator {background-position: 0 -320px;}*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/384f6c");
+
+#test1 {background: transparent url(/modules/img/asset-doesnt-exist.png) no-repeat 0 -292px; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test2 {background: transparent url(/modules/img/asset.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test3 {background: transparent url(/modules/img/asset.svg) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test4 {background: transparent url(/img/asset.gif) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test5 {background: transparent url(/modules/img/asset.jpg) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test6 {background: transparent url(//manipulator.parentnode.dk/img/logo.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test7 {background: transparent url(//manipulator.parentnode.dk/img/logo-missing.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test8 {background: transparent url(http://manipulator.parentnode.dk/img/logo-missing.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test9 {background: transparent url(https://manipulator.parentnode.dk/img/logo-missing.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test10 {background: transparent url(http://manipulator.parentnode.dk/img/logo.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#test11 {background: transparent url(https://manipulator.parentnode.dk/img/logo.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+
+#test12 {background: transparent url(/alias/img/asset.gif?rev=v1) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+

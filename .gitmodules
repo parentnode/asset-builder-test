@@ -1,0 +1,3 @@
+[submodule "submodules/asset-builder"]
+	path = submodules/asset-builder
+	url = https://github.com/parentnode/asset-builder.git

@@ -1,0 +1,3 @@
+#testj1 {background: transparent url(/modules/img/asset.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#testj2 {background: transparent url(/janitor/img/asset.png) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}
+#testj3 {background: transparent url(../../../img/asset.jpg) no-repeat 0 0; width: 100px; height: 25px; margin: 5px; border: 1px solid red; background-size: auto 100%;}

@@ -1,0 +1,60 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3690348, 2018-12-20T10:23:43-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: GalanoGrotesque-Medium by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/medium/
+ * 
+ * Webfont: GalanoGrotesque-SemiBold by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/semi-bold/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3690348
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/384f6c");
+
+  
+@font-face {
+	font-family: 'test1';
+	src: url('/css/fonts/384F6C_0_0.eot');
+	src: url('/css/fonts/384F6C_0_0.eot?#iefix') format('embedded-opentype'),
+		 url('/css/fonts/384F6C_0_0.woff2') format('woff2'),
+		 url('../fonts/384F6C_0_0.woff') format('woff'),
+		 url('/css/fonts/384F6C_0_0.ttf') format('truetype');
+	 font-weight: 400;
+	 font-style: normal;
+}
+ 
+  
+@font-face {
+	font-family: 'test2';
+	src: url('/modules/fonts/384F6C_1_0.eot');
+	src: url('/modules/fonts/384F6C_1_0.eot?#iefix') format('embedded-opentype'),
+		 url('../../modules/fonts/384F6C_1_0.woff2') format('woff2'),
+		 url('/modules/fonts/384F6C_1_0.woff') format('woff'),
+		 url('/modules/fonts/384F6C_1_0.svg?cb=123#id') format('svg'),
+		 url('/modules/fonts/384F6C_1_0.ttf?cb=123') format('truetype');
+	 font-weight: 600;
+	 font-style: normal;	
+}
+
+
+p.test1 {
+	font-family: "test1";
+}
+p.test2 {
+	font-family: "test2";
+}

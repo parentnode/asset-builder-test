@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'testj1';
+	src: url('/janitor/css/fonts/opensans-italic-webfont.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'testj2';
+	src: url('../../fonts/opensans-bold-webfont.svg') format('svg'), url('../../fonts/opensans-bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+p.testj1 {
+	font-family: "testj1";
+}
+p.testj2 {
+	font-family: "testj2";
+}
