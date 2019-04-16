@@ -1,25 +1,4 @@
-<?
-$dev = isset($_GET["dev"]) ? $_GET["dev"] : false;
-?>
-<html>
-<head>
-<? if($dev): ?>
-	<script src="/js/lib/seg_desktop_include.js"></script>
-	<script src="/js/lib/seg_smartphone_include.js"></script>
-	<link href="/css/lib/seg_desktop_include.css" rel="stylesheet" />
-	<link href="/css/lib/seg_smartphone_include.css" rel="stylesheet" />
-	<script src="/janitor/js/lib/seg_desktop_include.js"></script>
-	<link href="/janitor/css/lib/seg_desktop_include.css" rel="stylesheet" />
-<? else: ?>
-	<script src="/js/seg_desktop.js"></script>
-	<script src="/js/seg_smartphone.js"></script>
-	<link href="/css/seg_desktop.css" rel="stylesheet" />
-	<link href="/css/seg_smartphone.css" rel="stylesheet" />
-	<link href="/janitor/css/seg_desktop.css" rel="stylesheet" />
-	<script src="/janitor/js/seg_desktop.js"></script>
-<? endif; ?>
-</head>
-<body>
+<? include("../templates/www.header.php") ?>
 
 <? if(!$dev): ?>
 <h1>
@@ -66,5 +45,6 @@ $dev = isset($_GET["dev"]) ? $_GET["dev"] : false;
 		</div>
 		
 	</div>
-</body>
-</html>
+</div>
+
+<? include("../templates/www.footer.php") ?>
