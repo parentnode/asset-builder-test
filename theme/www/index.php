@@ -47,4 +47,5 @@
 	</div>
 </div>
 
-<? include("../templates/www.footer.php") ?>
+</body>
+</html>
